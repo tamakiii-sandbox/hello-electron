@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/tamakiii-sandbox/hello-electron/issues"
   },
-  "homepage": "https://github.com/tamakiii-sandbox/hello-electron#readme"
+  "homepage": "https://github.com/tamakiii-sandbox/hello-electron#readme",
+  "devDependencies": {
+    "electron": "^21.1.1"
+  }
 }
