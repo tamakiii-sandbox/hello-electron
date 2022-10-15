@@ -1,4 +1,4 @@
-.PHONY: help run start package make
+.PHONY: help run start package zip clean
 
 help:
 	@cat $(firstword $(MAKEFILE_LIST))
@@ -12,5 +12,8 @@ start:
 package:
 	npx --no -- electron-forge package
 
-make:
+zip:
 	npx --no -- electron-forge make
+
+clean:
+	rm -rf out
